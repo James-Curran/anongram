@@ -2,18 +2,25 @@
     height: 370px;
     overflow: overlay;
     width: 310px;
-    padding-left: 5px;
-    padding-right: 15px;
+}
+
+.popup-container::-webkit-scrollbar {
+    display: none;
 }
 
 ul.feature-list {
     padding-left: 25px;
 }
 
-h4.donation-title {
+.donation-title {
     margin-bottom: 2px;
 }
 
 .donation-address {
-    text-align: justify;
+    margin-top: 3px;
+}
+
+.popup-title {
+    margin-top: 7px;
+    margin-bottom: 5px;
 }
